@@ -1,39 +1,8 @@
-
-Skip to content
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
-@nn1986325
-manvitha0310 /
-CSA0659-DAA
-Public
-
-Fork your own copy of manvitha0310/CSA0659-DAA
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-
-    Insights
-
-CSA0659-DAA/Knapsack-DAA.cpp
-@manvitha0310
-manvitha0310 Add files via upload
-Latest commit f374f2e Sep 22, 2022
-History
-1 contributor
-73 lines (57 sloc) 1.59 KB
 # include<stdio.h>
  void knapsack(int n, float weight[], float profit[], float capacity) {
    float x[20], tp = 0;
    int i, j, u;
    u = capacity;
- 
    for (i = 0; i < n; i++)
       x[i] = 0.0;
  
